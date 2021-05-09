@@ -145,6 +145,7 @@ Phase2 <- function(data,line_to_add){
 }
 
 End <- function(data,max){
+  print(data)
   l=nrow(data)
   for (i in (1:ncol(max)))
   {
